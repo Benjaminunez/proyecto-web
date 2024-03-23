@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+* {font-family: "Madimi One", sans-serif;
+    margin: 0;
+  }
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#banner{
+    background-image: url('imagenes/perro.webp');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: derecha 1s;
+
+}
+
+@keyframes derecha{
+    0%{
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+#boton{
+        margin-left: 28vw;
+        color: aliceblue;
+        background-color: #ffc14e;
+        width: fit-content;
+        padding: 5px 25px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+
+
+
+#arriba{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    animation: bajar 1s;
+}
+
+@keyframes bajar{
+    0%{
+        transform: translateY(100px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+nav{
+    display: flex;
+    column-gap: 25px;
+}
+
+nav > a{
+    color: #292929;
+    text-decoration: none;
+}
+
+#banner > h1{
+    color: #ffc14e;
+    font-size: 3rem;
+    margin-left: 28vw;
+}
+
+#about{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    background-color: #F8F4E9;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/26/16/04/silhouette-3263081_1280.png);
+    background-repeat: no-repeat;
+    background-size: 90vh;
+    background-position: 50% center;
+    background-blend-mode: overlay ;
+}
+
+#about > h1{
+    color: #432B1C;
+    font-size: 2rem ;
+    font-weight: 600;
+
+}
+
+#linea{
+    width: 80px;
+    height: 4px;
+    background-color: #ffc14e;
+}
+
+#about > p{
+    width: 30%;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: 2px #ffc14e solid;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 18px;
+}
+
+#end{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/025/273/812/original/bones-for-dog-seamless-pattern-pets-background-for-pet-shop-websites-and-prints-social-media-posts-animal-product-design-cartoon-illustration-free-vector.jpg);
+    background-size: cover;
+    animation: bajar 1s;
+}
+
+
+#end > h1{
+    color: #182229;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+
+        
+}
+
+.imagen1{
+    width: 300px;
+    margin-right: 200px ;
+    border : 8px #432B1C solid;
+    border-radius: 20px; 
+}
+
+.imagen2{
+    width: 300px;
+    margin-right: 20px ;
+    border : 8px #432B1C solid;
+    border-radius: 20px; 
+}
+
+/*.imagen{
+    width: 400px;
+    margin-left: 450px ;
+}*/
