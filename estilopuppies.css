@@ -3,17 +3,21 @@
     margin: 0;
   }
 
-#inicio{
+#inicio-p{
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-image: url(https://wallpapercave.com/wp/6GcHLY2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 }
 
 #inicio-p > h1{
-    
+    color: #FFC14E;
     font-size: 4rem;
-    margin-left: 30vh;
+    margin-right: 150vh;
 }
